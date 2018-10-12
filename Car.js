@@ -4,6 +4,12 @@ class Car{
         this.convertible = convertible;
         this.speed = 0;
     }
+    accelerate(a){
+	this.speed +=a;
+    }
+    decelerate(d){
+	this.speed -=d;
+    }
 }
 
 module.exports = Car;
